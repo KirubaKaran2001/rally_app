@@ -8,19 +8,19 @@ class CardDetails2 extends StatelessWidget {
   final String? directionalText;
   final Color? color;
 
-  const CardDetails2({
+    const CardDetails2(
+     {
     @required this.alertText,
     @required this.subTitle,
     @required this.amount,
     Key? key,
-    this.directionalText,
-     this.color,
+   @required this.directionalText,
+    @required this.color,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Card(
-      elevation: 0,
       color: const Color(0xff33333e),
       child: Row(
         children: [

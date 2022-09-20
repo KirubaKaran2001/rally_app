@@ -144,7 +144,8 @@ class MobileView extends StatelessWidget {
           const SizedBox(
             height: 10,
           ),
-          const CardDetails2(
+            const CardDetails2
+           (
             alertText: 'Coffee Shops',
             subTitle: '45.79/\$78.80',
             amount: '24.51',
@@ -154,7 +155,7 @@ class MobileView extends StatelessWidget {
           const SizedBox(
             height: 10,
           ),
-          const CardDetails2(
+            const CardDetails2 (
             alertText: 'Groceries',
             subTitle: '16.90/\$178',
             amount: '153',
@@ -164,7 +165,7 @@ class MobileView extends StatelessWidget {
           const SizedBox(
             height: 10,
           ),
-          const CardDetails2(
+            const CardDetails2(
             alertText: 'Restaraunts',
             subTitle: '123.89/\$170',
             amount: '46.75',

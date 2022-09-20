@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:rally_app/styles/text_styles.dart';
 
@@ -18,86 +17,81 @@ class DesktopView extends StatelessWidget {
           const SizedBox(
             width: 20,
           ),
-          Expanded(
-            flex: 35,
-            child: SingleChildScrollView(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const HeaderCard(
-                    cardName: 'Accounts',
-                    cardAmount: '12,134.32',
-                  ),
-                  const SizedBox(
-                    height: 10,
-                  ),
-                  const CardDetails(
-                    cardDesc: 'Checking',
-                    subtitle: '1243',
-                    amount: '2,234.56',
-                    color: Color(0Xff0d5d57),
-                  ),
-                  const CardDetails(
-                    cardDesc: 'Home Savings',
-                    subtitle: '5678',
-                    amount: '3,534.56',
-                    color: Color(0Xff1eb97f),
-
-                  ),
-                  const CardDetails(
-                    cardDesc: 'Car Savings',
-                    subtitle: '9101',
-                    amount: '7,890.56',
-                      color:Color(0xff37eeba) ,
-                  ),
-                  const SizedBox(
-                    height: 10,
-                  ),
-                  const CardSeeAll(
-                    buttonText: 'SEE ALL',
-                  ),
-                  Row(
-                    children: const [
-                      Expanded(
-                        child: HeaderCard(
-                          cardName: 'Budgets',
-                          cardAmount: '48,000.90',
-                        ),
+          SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const HeaderCard(
+                  cardName: 'Accounts',
+                  cardAmount: '12,134.32',
+                ),
+                const SizedBox(
+                  height: 10,
+                ),
+                const CardDetails(
+                  cardDesc: 'Checking',
+                  subtitle: '1243',
+                  amount: '2,234.56',
+                  color: Color(0Xff0d5d57),
+                ),
+                const CardDetails(
+                  cardDesc: 'Home Savings',
+                  subtitle: '5678',
+                  amount: '3,534.56',
+                  color: Color(0Xff1eb97f),
+            
+                ),
+                const CardDetails(
+                  cardDesc: 'Car Savings',
+                  subtitle: '9101',
+                  amount: '7,890.56',
+                    color:Color(0xff37eeba) ,
+                ),
+                const SizedBox(
+                  height: 10,
+                ),
+                const CardSeeAll(
+                  buttonText: 'SEE ALL',
+                ),
+                Row(
+                  children: const [
+                    Expanded(
+                      child: HeaderCard(
+                        cardName: 'Budgets',
+                        cardAmount: '48,000.90',
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
+                ),
+                 const CardDetails2(
+                  alertText: 'Coffee Shops',
+                  subTitle: '45.79/\$78.80',
+                  amount: '24.51',
+                  directionalText: 'Left',
+                  color: Color(0Xffb2f2ff),
+                ),
+                 const CardDetails2(
+                  alertText: 'Groceries',
+                  subTitle: '16.90/\$178',
+                  amount: '153',
+                  directionalText: 'Left',
+                  color: Color(0Xffb15dff),
+                
+                ),
                   const CardDetails2(
-                    alertText: 'Coffee Shops',
-                    subTitle: '45.79/\$78.80',
-                    amount: '24.51',
-                    directionalText: 'Left',
-                    color: Color(0Xffb2f2ff),
-                   
-
-                  ),
-                  const CardDetails2(
-                    alertText: 'Groceries',
-                    subTitle: '16.90/\$178',
-                    amount: '153',
-                    directionalText: 'Left',
-                    color: Color(0Xffb15dff),
-                  
-                  ),
-                  const  CardDetails2(
-                    alertText: 'Restaraunts',
-                    subTitle: '123.89/\$170',
-                    amount: '46.75',
-                    directionalText: 'Left',
-                  color: Color(0Xff72deff),
-                  ),
-                  const SizedBox(
-                    height: 10,
-                  ),
-                  const CardSeeAll(
-                    buttonText: 'SEE ALL',
-                  ),
-                ],
-              ),
+                  alertText: 'Restaraunts',
+                  subTitle: '123.89/\$170',
+                  amount: '46.75',
+                  directionalText: 'Left',
+                color: Color(0Xff72deff),
+                ),
+                const SizedBox(
+                  height: 10,
+                ),
+                const CardSeeAll(
+                  buttonText: 'SEE ALL',
+                ),
+              ],
             ),
           ),
           Expanded(
@@ -221,4 +215,3 @@ class DesktopView extends StatelessWidget {
       );
   }
 }
-
