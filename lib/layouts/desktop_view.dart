@@ -66,28 +66,28 @@ class DesktopView extends StatelessWidget {
                             child: Column(
                               children: const [
                                 HeaderCard(
-                                  cardName: 'Accounts',
-                                  cardAmount: '12,134.32',
+                                  cardName: 'Bills',
+                                  cardAmount: '17,324.32',
                                 ),
                                 SizedBox(
                                   height: 10,
                                 ),
                                 CardDetails(
-                                  cardDesc: 'Checking',
-                                  subtitle: '1243',
-                                  amount: '2,234.56',
+                                  cardDesc: 'Red Pay Credit',
+                                  subtitle: 'jan 29',
+                                  amount: '45.76',
                                   color: Color(0Xff0d5d57),
                                 ),
                                 CardDetails(
-                                  cardDesc: 'Home Savings',
-                                  subtitle: '5678',
-                                  amount: '3,534.56',
+                                  cardDesc: 'Rent',
+                                  subtitle: 'Feb 20',
+                                  amount: '1,200.56',
                                   color: Color(0Xff1eb97f),
                                 ),
                                 CardDetails(
-                                  cardDesc: 'Car Savings',
-                                  subtitle: '9101',
-                                  amount: '7,890.56',
+                                  cardDesc: 'Tab Fine',
+                                  subtitle: 'mar 9',
+                                  amount: '87.33',
                                   color: Color(0xff37eeba),
                                 ),
                                 SizedBox(
@@ -112,14 +112,14 @@ class DesktopView extends StatelessWidget {
                         subTitle: '45.79/\$78.80',
                         amount: '24.51',
                         directionalText: 'Left',
-                        color: const Color(0Xffb2f2ff),
+                        color:  Color(0Xffb2f2ff),
                       ),
                       const CardDetails2(
                         alertText: 'Groceries',
                         subTitle: '16.90/\$178',
                         amount: '153',
                         directionalText: 'Left',
-                        color: const Color(0Xffb15dff),
+                        color:  Color(0Xffb15dff),
                       ),
                       const CardDetails2(
                         alertText: 'Restaraunts',

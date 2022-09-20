@@ -39,6 +39,7 @@ class _RallyNavRailState extends State<RallyNavRail> {
           icon: const Icon(
             Icons.bookmark_border,
             color: Colors.white,
+
           ),
           label: Text(
             'Overview',

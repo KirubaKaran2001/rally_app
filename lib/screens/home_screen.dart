@@ -31,28 +31,42 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       color: Colors.white,
                       onPressed: (() {
-                        Navigator.pushNamed(context, '/home');
+                        setState(() {
+                           Navigator.pushNamed(context, '/home');
+                        });
+                       
                       }),
                     ),
                     IconButton(
                       icon: const Icon(Icons.attach_money),
                       color: Colors.white,
-                      onPressed: () {},
+                      onPressed: () {setState(() {
+                        Navigator.pushNamed(context, '/accounts');
+                      });
+                         
+                      },
                     ),
                     IconButton(
                       icon: const Icon(Icons.money_off),
                       color: Colors.white,
-                      onPressed: () {},
+                      onPressed: () { setState(() {
+                         Navigator.pushNamed(context, '/bills');
+                      });
+                       },
                     ),
                     IconButton(
                       icon: const Icon(Icons.account_balance),
                       color: Colors.white,
-                      onPressed: () {},
+                      onPressed: () { setState(() {
+                         Navigator.pushNamed(context, '/total');
+                      });      },
                     ),
                     IconButton(
                       icon: const Icon(Icons.settings),
                       color: Colors.white,
-                      onPressed: () {},
+                      onPressed: () { setState(() {
+                        Navigator.pushNamed(  context, '/settings');
+                      });    },
                     ),
                   ],
                 ),
